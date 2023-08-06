@@ -1,0 +1,13 @@
+To compile program use Makefile.
+
+To run program use following command.
+./betc input_file_name
+
+Input file format:
+nodes edges
+u1 v1 wt1=1
+u2 v2 wt2=1
+.  .  .
+.  .  .
+.  .  .
+.  .  .
