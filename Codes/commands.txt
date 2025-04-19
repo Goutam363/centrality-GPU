@@ -1,5 +1,5 @@
 !rm -rf centrality-GPU
-!git clone https://github.com/Goutam363/centrality-GPU.git
+!git clone -b approx_by_sampling https://github.com/Goutam363/centrality-GPU.git
 
 %cd centrality-GPU/
 
