@@ -1,0 +1,15 @@
+!rm -rf centrality-GPU
+!git clone https://github.com/Goutam363/centrality-GPU.git
+
+%cd centrality-GPU/
+
+!ls
+%cd Codes
+
+!apt-get update && apt-get install -y make
+!sed -i 's/-arch=sm_35/-arch=sm_75/g' Makefile
+!cat Makefile
+!make
+
+
+!python measure_energy.py
